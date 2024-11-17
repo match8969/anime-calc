@@ -17,6 +17,7 @@ export default function Calculator() {
         checkForAnimations(result)
       } catch (error) {
         setDisplay('Error')
+        console.log(error)
       }
     } else {
       setDisplay(prev => (prev === '0' ? value : prev + value))
