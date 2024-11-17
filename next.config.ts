@@ -3,9 +3,9 @@ import type { NextConfig } from "next";
 const nextConfig: NextConfig = {
   /* config options here */
   experimental: {
-    react: {
-      version: '18.2.0'
-    }
+    // react: {
+    //   version: '18.2.0'
+    // }
   }
 };
 
